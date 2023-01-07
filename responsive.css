@@ -1,0 +1,357 @@
+@media (max-width: 1350px) {
+    
+    figcaption {
+        font-size: 13px;
+    }
+
+    .fig-txt-1 {
+        left: -2rem;
+    }
+
+    .fig-txt-2 {
+        right: -14rem;
+    }
+
+    .fig-txt-3 {
+        right: -18rem;    }
+
+    .fig-txt-4 {
+        right: -10rem;
+    }
+
+    .fig-txt-5 {
+        right: calc(-17rem + 10px);
+    }
+
+    .fig-txt-6 {
+        right: calc(-14rem + 10px);
+    }
+
+    .fig-txt-7 {
+        left: calc(-1rem + 10px);
+    }
+
+    .fig-txt-8 {
+        left: calc(-16rem + -2px);
+    }
+
+    .fig-txt-9 {
+        left: calc(-13rem + 14px);
+    }
+
+    .fig-txt-10 {
+        left: calc(-7rem + 6px);
+    }
+
+    .fig-txt-11 {
+        left: calc(-14rem + 10px);
+    }
+
+    .fig-txt-12 {
+        left: -7rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .fig-txt-1 {
+        top: -3rem;
+        left: 0;
+    }
+
+    .fig-txt-2 {
+        right: -5rem;
+        top: 5rem;
+    }
+
+    .fig-txt-3 {
+        right: -3rem;
+        top: 5rem;
+    }
+
+    .fig-txt-4 {
+        right: 0;
+        top: 6rem;
+    }
+
+    .fig-txt-5 {
+        right: -1rem;
+        top: 5rem;
+    }
+
+    .fig-txt-6 {
+        right: 0;
+        top: 5rem;
+    }
+
+    .fig-txt-7 {
+        top: 5rem;
+        left: 0;
+    }
+
+    .fig-txt-8 {
+        left: calc(-1rem + 12px);
+        top: 5rem;
+    }
+
+    .fig-txt-9 {
+        left: -5px;
+        top: 5rem;
+    }
+
+    .fig-txt-10 {
+        left: 0;
+        top: 5rem;
+    }
+
+    .fig-txt-11 {
+        left: -10px;
+        top: 5rem;
+    }
+
+    .fig-txt-12 {
+        left: 0;
+        top: 5rem;
+    }
+
+    figcaption {
+        white-space: unset;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .contact-recruitment-task {
+        height: auto;
+    }
+
+    form {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    input[type=text], input[type=email], select, textarea {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .form-box-1, .form-box-2, .form-box-3 {
+        flex-direction: column;
+    }
+
+    ul.circle-examples-inner li {
+        width: 68px;
+        height: 68px;
+    }
+
+    .fig-txt-1 {
+        top: -6vh;
+        left: 0;
+    }
+    
+    .fig-txt-2 {
+        right: -12vh;
+        top: 8vh;
+    }
+
+    .fig-txt-7 {
+        left: -1vh;
+    }
+
+    .fig-txt-8 {
+        left: -2vh;
+        top: 10vh;
+    }
+
+    .fig-txt-11 {
+        left: -4vh;
+    }
+
+    .fig-txt-3 {
+        right: -5vh;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    section#gear-recruitment-task {
+        margin-bottom: 0;
+    }
+
+    .desktop-view {
+        display: none;
+    }
+    
+    .mobile-view {
+        display: block;
+    }
+
+    .gear,
+    .gear-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gear img,
+    .gear-circle img {
+        width: 85%;
+    }
+
+    .gear-text p {
+        font-size: 12px;
+    }
+
+    .gear-content {
+        margin: 50px 0;
+    }
+
+    ul.circle-examples-inner {
+        left: 0;
+        top: 0;
+    }
+
+    ul.circle-examples-inner li {
+        transform: none !important;
+        position: static;
+        width: 100px;
+        height: 100px;
+        margin: 100px 0;
+    }
+
+    figcaption {
+        white-space: nowrap;
+        font-size: 18px;
+    }
+
+    .fig-txt-1 {
+        top: 4rem;
+        left: -3rem;
+    }
+
+    .fig-txt-2 {
+        top: calc(17rem + -5px);
+        left: -6rem;
+    }
+
+    .fig-txt-3 {
+        right: -8rem;
+        top: 29rem;
+    }
+
+    .fig-txt-4 {
+        right: -3rem;
+        top: calc(42rem + -4px);
+    }
+
+    .fig-txt-5 {
+        right: -7rem;
+        top: 54rem;
+    }
+
+    .fig-txt-6 {
+        right: -5rem;
+        top: calc(67rem + -4px);
+    }
+
+    .fig-txt-7 {
+        left: -10px;
+        top: 79rem;
+    }
+
+    .fig-txt-8 {
+        left: -7rem;
+        top: 92rem;
+    }
+
+    .fig-txt-9 {
+        left: -4rem;
+        top: 104rem;
+    }
+
+    .fig-txt-10 {
+        left: -8px;
+        top: 117rem;
+    }
+
+    .fig-txt-11 {
+        top: calc(129rem - -4px);
+        left: -5rem;
+    }
+
+    .fig-txt-12 {
+        left: -6px;
+        top: 142rem;
+    }
+
+    ul.circle-examples-inner li figure img:hover {
+        transform: none;
+    }
+
+    .rec-task-title, .gear-content {
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .gear-circle img {
+        display: none;
+    }
+}
+
+@media (max-width: 467px) {
+
+    figcaption {
+        font-size: 15px;
+    }
+
+    .fig-txt-1 {
+        left: -2rem;
+    }
+    
+    .fig-txt-2 {
+        right: -6rem;
+    }
+
+    .fig-txt-3 {
+        right: calc(-6rem - 6px);
+    }
+
+    .fig-txt-4 {
+        right: -25px;
+    }
+
+    .fig-txt-5 {
+        right: calc(-6rem + 8px);
+    }
+
+    .fig-txt-6 {
+        right: -4rem;
+    }
+
+    .fig-txt-7 {
+        left: 0;
+    }
+
+    .fig-txt-8 {
+        left: -5rem;
+    }
+
+    .fig-txt-9 {
+        left: -3rem;
+        top: calc(104rem - -6px);
+    }
+    
+    .fig-txt-10 {
+        left: 0;
+    }
+
+    .fig-txt-11 {
+        left: -4rem;
+    }
+
+    .fig-txt-12 {
+        left: 0;
+    }
+}

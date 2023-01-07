@@ -1,0 +1,345 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Hind', sans-serif;
+}
+
+/* Helpers */
+
+section#gear-recruitment-task {
+    margin-bottom: 250px;
+}
+
+section#contact-recruitment-task {
+    overflow: hidden;
+}
+
+.container-wider {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+p.contact-form {
+    font-size: 18px;
+}
+
+a {
+    color: #35A8E0;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+a:hover {
+    color: #fff;
+}
+
+img {
+    object-fit: cover;
+}
+
+.btn {
+    background-color: #35A8E0;
+    padding: 15px;
+    margin-bottom: 50px;
+    color: #fff;
+    width: 163px;
+    height: 52px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+
+.bolded {
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+.bolded:hover {
+    color: #35A8E0;
+}
+
+.mobile-view {
+    display: none;
+}
+
+/* Recruitment Task First Section */
+
+.rec-task-title {
+    padding-top: 50px;
+}
+
+.rec-task-title a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.rec-task-title p {
+    padding: 20px;
+}
+
+.rec-task-title,
+.gear-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Gear content */
+
+.circle-box img:nth-child(0),
+.circle-box img:nth-child(1) {
+    transition: 0.5s ease;
+}
+
+.circle-box img:nth-child(0):hover,
+.circle-box img:nth-child(1):hover {
+    transform: rotate(360deg);
+}
+
+.gear-content {
+    margin-top: 200px;
+    position: relative;
+}
+
+.gear-circle {
+    position: absolute;
+}
+
+.gear-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+}
+
+/* Examplers content */
+
+.circle-content-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.circle-examples-inner {
+    position: relative;
+    top: -286px;
+    left: -42px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.circle-examples-inner li {
+    position: absolute;
+    -webkit-transition: all 2s linear;
+    -moz-transition: all 2s linear;
+    transition: all 2s linear;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #D4DBE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F7F9;
+    transition: 1.5s ease;
+}
+
+ul.circle-examples-inner li figure img {
+    transition: 0.5s ease;
+}
+
+ul.circle-examples-inner li figure img:hover {
+    transform: rotate(360deg);
+}
+
+figcaption {
+    position: absolute;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.fig-txt-1 {
+    top: -2rem;
+    left: -3rem;
+}
+
+.fig-txt-2 {
+    top: calc(2rem + -4px);
+    right: -16rem;
+}
+
+.fig-txt-3 {
+    right: calc(-21rem + -6px);
+    top: calc(2rem + -4px);
+}
+
+.fig-txt-4 {
+    top: calc(2rem + -4px);
+    right: -12rem;
+}
+
+.fig-txt-5 {
+    top: calc(2rem + -4px);
+    right: -20rem;
+}
+
+.fig-txt-6 {
+    top: calc(2rem + -4px);
+    right: -16rem;
+}
+
+.fig-txt-7 {
+    bottom: -2rem;
+    left: -1rem;
+}
+
+.fig-txt-8 {
+    top: 2rem;
+    left: calc(-19rem + -6px);
+}
+
+.fig-txt-9 {
+    top: 2rem;
+    left: calc(-15rem + 6px);
+}
+
+.fig-txt-10 {
+    top: 2rem;
+    left: -8rem;
+}
+
+.fig-txt-11 {
+    top: 2rem;
+    left: -16rem;
+}
+
+.fig-txt-12 {
+    top: 2rem;
+    left: -8rem;
+}
+
+/* Contact Recruitment Task */
+
+.contact-recruitment-task {
+    background: #274291 url('/img/Contact/Clip.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    height: 642px;
+}
+
+.contact-recruitment-task .rec-task-title {
+    padding: 40px 0;
+}
+
+.contact-recruitment-task .rec-task-title h1,
+.contact-recruitment-task .rec-task-title a {
+    color: #fff;
+}
+
+.contact-recruitment-task .rec-task-title a {
+    padding-top: 20px;
+}
+
+/* Contact Form */
+
+form {
+    max-width: 951px;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select {
+    width: 305px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 15px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+select {
+    border-right: 15px solid transparent;
+}
+
+textarea {
+    width: 951px;
+    height: 124px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    resize: none;
+}
+
+input[type=text]::placeholder,
+input[type=email]::placeholder,
+select::placeholder,
+textarea::placeholder {
+    color: #000;
+}
+
+.form-box-1,
+.form-box-2,
+.form-box-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.btn-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-inner {
+    margin: 10px 0px 25px 0;
+}
+
+.checkbox-inner label {
+    color: #fff;
+}
+
+input[type=checbox] {
+    margin-right: 15px;
+}
